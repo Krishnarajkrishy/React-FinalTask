@@ -10,7 +10,7 @@ const App = () => {
     <ThemeProvider>
         <BrowserRouter>
           <div className=" bg-slate-100 dark:bg-slate-800 dark:text-white">
-            <div className="container mx-auto border-2 border-slate-400">
+            <div className="container mx-auto ">
               <NavBar />
               <Routes>
                 <Route path="/" element={<Home />} />
