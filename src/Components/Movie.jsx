@@ -18,7 +18,7 @@ const Movie = () => {
   const handleClick = async () => {
     try{
     const responce = await axios.get(
-      `http://www.omdbapi.com/?apikey=3020adb&s=${searchQuery}`
+      `https://www.omdbapi.com/?apikey=3020adb&s=${searchQuery}`
     )
       setMoviesList(responce.data.Search || [])
     } catch (error) {
